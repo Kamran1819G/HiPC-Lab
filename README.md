@@ -1,1 +1,1 @@
-# HPC-Lab
+# High Performance Computing Lab
