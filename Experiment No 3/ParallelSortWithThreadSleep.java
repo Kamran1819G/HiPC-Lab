@@ -3,12 +3,11 @@ import java.time.LocalTime;
 
 public class ParallelSortWithThreadSleep {
     private static final int ARRAY_SIZE = 100;
-    private static final int NUM_THREADS = 4;
+    private static final int NUM_THREADS = 8;
 
     public static void main(String[] args) {
         int[] array = createArray();
         System.out.println("Before sorting: " + Arrays.toString(array));
-
         Thread[] threads = new Thread[NUM_THREADS];
         int segmentSize = ARRAY_SIZE / NUM_THREADS;
 

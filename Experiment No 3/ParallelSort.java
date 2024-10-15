@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class ParallelSort {
     private static final int ARRAY_SIZE = 100;
-    private static final int NUM_THREADS = 4;
+    private static final int NUM_THREADS = 8;
 
     public static void main(String[] args) {
         int[] array = createArray();
